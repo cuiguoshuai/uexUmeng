@@ -5,9 +5,9 @@
 	<key>UexKeyValues</key>
 	<dict>
 		<key>uexUmengAppKey</key>
-		<string>$uexUmeng_AppKey$</string>
+		<string>$uexUmeng_APPKey$</string>
 		<key>uexUmengChannelId</key>
-		<string>$uexUmeng_ChannelId$</string>
+		<string>$uexUmeng_channel$</string>
 	</dict>
 </dict>
 </plist>
