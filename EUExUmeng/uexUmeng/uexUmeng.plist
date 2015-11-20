@@ -4,9 +4,9 @@
 <dict>
 	<key>UexKeyValues</key>
 	<dict>
-		<key>uexUmengAppKey</key>
+		<key>uexUmeng_APPKey</key>
 		<string>$uexUmeng_APPKey$</string>
-		<key>uexUmengChannelId</key>
+		<key>uexUmeng_channel</key>
 		<string>$uexUmeng_channel$</string>
 	</dict>
 </dict>

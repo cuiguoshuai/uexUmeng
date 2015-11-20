@@ -22,8 +22,8 @@
 //      NSString* startWithAppkey=@"562df76b67e58e0592003544";
 //      NSString* channelId=@"web";
 + (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    NSString *startWithAppkey=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmengAppKey"];
-    NSString *channelId=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmengChannelId"];
+    NSString *startWithAppkey=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmeng_APPKey"];
+    NSString *channelId=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmeng_channel"];
     [MobClick startWithAppkey:startWithAppkey reportPolicy:BATCH   channelId:channelId];
     return YES;
 }
