@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
     <plugin
-        uexName="uexUmeng" version="3.0.0" build="0">
-        <info>0:新增uexUmeng插件</info>
+        uexName="uexUmeng" version="3.0.1" build="1">
+        <info>1:替换为不采集IDFA版SDK</info>
+        <build>0:新增uexUmeng插件</build>
 
     </plugin>
 </uexplugins>
