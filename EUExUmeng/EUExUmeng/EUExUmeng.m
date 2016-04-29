@@ -29,15 +29,22 @@
 }
 
 -(void)onEvent:(NSMutableArray*)inArguments{
-    if(inArguments.count < 2){
+    if(inArguments.count < 1){
         return;
     }
     NSString* eventId=inArguments[0];
-    NSDictionary* attributes= [inArguments[1] JSONValue];
-    if(![eventId isKindOfClass:[NSString class]]||![attributes isKindOfClass:[NSDictionary class]]){
-        return;
+    id attributes;
+    if(inArguments.count>1){
+        attributes= [inArguments[1] JSONValue];
     }
-    [MobClick event:eventId attributes:attributes];
+    if([eventId isKindOfClass:[NSString class]]){
+        if([attributes isKindOfClass:[NSDictionary class]]){
+            [MobClick event:eventId attributes:attributes];
+        }
+        else{
+            [MobClick event:eventId];
+        }
+    }
 }
 
 -(void)getDeviceInfo:(NSMutableArray*)inArguments{
