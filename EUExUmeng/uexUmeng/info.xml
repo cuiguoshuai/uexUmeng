@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
     <plugin
-        uexName="uexUmeng" version="3.0.2" build="2">
-        <info>2:修改onEvent接口第二个参数为非必传</info>
-        <build>1:替换为不采集IDFA版SDK</build>
-        <build>0:新增uexUmeng插件</build>
-
+        uexName="uexUmeng" version="4.0.0" build="0">
+        <info>0:插件4.0</info>
     </plugin>
 </uexplugins>
 

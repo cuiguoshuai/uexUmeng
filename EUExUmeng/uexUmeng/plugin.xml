@@ -2,7 +2,7 @@
 <uexplugins>
     <plugin name="uexUmeng">
         <method name="onEvent"></method>
-        <method name="getDeviceInfo"></method>
+        <method name="getDeviceInfo" sync = "true"></method>
     </plugin>
     
 </uexplugins>
