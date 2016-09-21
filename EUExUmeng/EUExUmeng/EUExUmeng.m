@@ -32,13 +32,9 @@
     if(inArguments.count < 1){
         return;
     }
-    NSString* eventId=inArguments[0];
-    id attributes;
-    if(inArguments.count>1){
-        attributes= [inArguments[1] ac_JSONValue];
-    }
-    if([eventId isKindOfClass:[NSString class]]){
-        if([attributes isKindOfClass:[NSDictionary class]]){
+    ACArgsUnpack(NSString* eventId,NSDictionary*attributes) = inArguments;
+    if(eventId){
+        if(attributes ){
             [MobClick event:eventId attributes:attributes];
         }
         else{
@@ -48,7 +44,6 @@
 }
 
 -(NSDictionary*)getDeviceInfo:(NSMutableArray*)inArguments{
-   //ACJSFunctionRef *func = JSFunctionArg(inArguments.lastObject);
     Class cls = NSClassFromString(@"UMANUtil");
     SEL deviceIDSelector = @selector(openUDIDString);
     NSString *deviceID = nil;
