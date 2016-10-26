@@ -48,23 +48,23 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  网页View,添加到此view上的subView会固定在屏幕上,不会跟随网页滑动
  */
-@property (nonatomic,strong,readonly) __kindof UIView           *webView;
+@property (nonatomic,strong,readonly,nullable) __kindof UIView *webView;
 /**
  *  网页中的ScrollView,添加到此view上的subView会跟随网页滑动
  */
-@property (nonatomic,strong,readonly) __kindof UIScrollView     *webScrollView;
+@property (nonatomic,strong,readonly,nullable) __kindof UIScrollView *webScrollView;
 /**
  *  当前网页所在的viewController
  */
-@property (nonatomic,weak,readonly  ) __kindof UIViewController *viewController;
+@property (nonatomic,weak,readonly) __kindof UIViewController *viewController;
 /**
  *  AppCanWidget对象,里面包含了网页所在的widget信息
  */
-@property (nonatomic,weak,readonly  ) id<AppCanWidgetObject>    widget;
+@property (nonatomic,weak,readonly) id<AppCanWidgetObject>    widget;
 /**
  *  当前网页的URL
  */
-@property (nonatomic,strong,readonly) NSURL                     *currentURL;
+@property (nonatomic,strong,readonly,nullable) NSURL *currentURL;
 
 
 
@@ -87,7 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @discussion 对于无返回值的JS函数,returnValue为一个代表<undefined>的JSValue,而不是nil
  *
  */
-- (void)callbackWithFunctionKeyPath:(NSString *)JSKeyPath arguments:(nullable NSArray *)arguments completion:(nullable void (^)(JSValue *returnValue))completion;
+- (void)callbackWithFunctionKeyPath:(NSString *)JSKeyPath arguments:(nullable NSArray *)arguments completion:(nullable void (^)(JSValue  * _Nullable returnValue))completion;
 
 /**
  *  执行网页中的回调函数,参数同上

@@ -7,24 +7,19 @@
 //
 
 #import "EUExUmeng.h"
-#import "MobClick.h"
+#import <UMMobClick/MobClick.h>
 
 
 @implementation EUExUmeng
-
-//-(id)initWithBrwView:(EBrowserView *) eInBrwView {
-//    if (self = [super initWithBrwView:eInBrwView]) {
-//
-//    }
-//    return self;
-//}
 //      测试Key
 //      NSString* startWithAppkey=@"562df76b67e58e0592003544";
 //      NSString* channelId=@"web";
 + (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     NSString *startWithAppkey=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmeng_APPKey"];
     NSString *channelId=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmeng_channel"];
-    [MobClick startWithAppkey:startWithAppkey reportPolicy:BATCH   channelId:channelId];
+    UMConfigInstance.appKey = startWithAppkey;
+    UMConfigInstance.channelId = channelId;
+    [MobClick startWithConfigure:UMConfigInstance];
     return YES;
 }
 
@@ -50,9 +45,7 @@
     if(cls && [cls respondsToSelector:deviceIDSelector]){
         deviceID = [cls performSelector:deviceIDSelector];
     }
-
-    //[self cbDeviceInfo:[@{@"oid":deviceID} ac_JSONFragment]];
-    //[func executeWithArguments:ACArgsPack(@{@"oid":deviceID})];
+    
     if (deviceID) {
         [self.webViewEngine callbackWithFunctionKeyPath:@"uexUmeng.cbGetDeviceInfo" arguments:ACArgsPack([@{@"oid":deviceID} ac_JSONFragment])];
         return @{@"device_id":deviceID};
@@ -63,10 +56,4 @@
     }
     
 }
-
-//callback
-//-(void)cbDeviceInfo:(NSString*)param{
-//    NSString *cbStr=[NSString stringWithFormat:@"if(uexUmeng.cbGetDeviceInfo != null){uexUmeng.cbGetDeviceInfo('%@');}",param];
-//    [EUtility brwView:meBrwView evaluateScript:cbStr];
-//}
 @end
