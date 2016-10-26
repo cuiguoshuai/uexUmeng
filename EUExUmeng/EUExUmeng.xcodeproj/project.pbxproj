@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21E35A6C1DC07E2C00B7F5AF /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */; };
 		3C864DF41BE1AC51000B24F7 /* EUExUmeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */; };
-		3CED52B11C1AD60100A3244B /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CED52AE1C1AD60100A3244B /* libMobClickLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
 		3C65FF511BE2092600102255 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3C864DEE1BE1AC51000B24F7 /* libuexUmeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexUmeng.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C864DF11BE1AC51000B24F7 /* EUExUmeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExUmeng.h; sourceTree = "<group>"; };
@@ -43,9 +44,6 @@
 		3C864E0F1BE1BF2E000B24F7 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		3C864E101BE1BF2E000B24F7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		3C864E111BE1BF2E000B24F7 /* WidgetOneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetOneDelegate.h; sourceTree = "<group>"; };
-		3CED52AE1C1AD60100A3244B /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
-		3CED52AF1C1AD60100A3244B /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
-		3CED52B01C1AD60100A3244B /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CED52B11C1AD60100A3244B /* libMobClickLibrary.a in Frameworks */,
+				21E35A6C1DC07E2C00B7F5AF /* UMMobClick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +77,7 @@
 		3C864DF01BE1AC51000B24F7 /* EUExUmeng */ = {
 			isa = PBXGroup;
 			children = (
-				3CED52AE1C1AD60100A3244B /* libMobClickLibrary.a */,
-				3CED52AF1C1AD60100A3244B /* MobClick.h */,
-				3CED52B01C1AD60100A3244B /* MobClickSocialAnalytics.h */,
+				21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */,
 				3C65FF511BE2092600102255 /* PrefixHeader.pch */,
 				3C864E0B1BE1BF2E000B24F7 /* engineHeader */,
 				3C864E011BE1BF21000B24F7 /* JSON */,
@@ -266,6 +262,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = $SRCROOT/uexUmeng/;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExUmeng",
+				);
 				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -282,6 +282,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = $SRCROOT/uexUmeng/;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExUmeng",
+				);
 				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

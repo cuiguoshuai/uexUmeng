@@ -7,7 +7,7 @@
 //
 
 #import "EUExUmeng.h"
-#import "MobClick.h"
+#import <UMMobClick/MobClick.h>
 #import "JSON/JSON.h"
 
 @implementation EUExUmeng
@@ -24,7 +24,9 @@
 + (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     NSString *startWithAppkey=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmeng_APPKey"];
     NSString *channelId=[[[NSBundle mainBundle] infoDictionary] objectForKey:@"uexUmeng_channel"];
-    [MobClick startWithAppkey:startWithAppkey reportPolicy:BATCH   channelId:channelId];
+    UMConfigInstance.appKey = startWithAppkey;
+    UMConfigInstance.channelId = channelId;
+    [MobClick startWithConfigure:UMConfigInstance];
     return YES;
 }
 
