@@ -8,10 +8,6 @@
 
 #import "EUExUmeng.h"
 #import <UMMobClick/MobClick.h>
-<<<<<<< HEAD
-#import "JSON/JSON.h"
-=======
->>>>>>> origin/dev-4.0
 
 
 @implementation EUExUmeng

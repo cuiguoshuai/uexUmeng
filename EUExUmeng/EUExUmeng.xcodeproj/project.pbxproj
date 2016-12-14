@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-=======
 		21C936C11DC08CEB00BCC569 /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C936C01DC08CEB00BCC569 /* AppCanKit.framework */; };
->>>>>>> origin/dev-4.0
 		21E35A6C1DC07E2C00B7F5AF /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */; };
 		3C864DF41BE1AC51000B24F7 /* EUExUmeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */; };
 /* End PBXBuildFile section */
@@ -28,10 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
-=======
 		21C936C01DC08CEB00BCC569 /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
->>>>>>> origin/dev-4.0
 		21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
 		3C65FF511BE2092600102255 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3C864DEE1BE1AC51000B24F7 /* libuexUmeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexUmeng.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,10 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-=======
 				21C936C11DC08CEB00BCC569 /* AppCanKit.framework in Frameworks */,
->>>>>>> origin/dev-4.0
 				21E35A6C1DC07E2C00B7F5AF /* UMMobClick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,10 +241,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EUExUmeng",
-<<<<<<< HEAD
-=======
 					"$(PROJECT_DIR)/EUExUmeng/engineHeader",
->>>>>>> origin/dev-4.0
 				);
 				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
 				LIBRARY_SEARCH_PATHS = (
@@ -274,10 +262,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EUExUmeng",
-<<<<<<< HEAD
-=======
 					"$(PROJECT_DIR)/EUExUmeng/engineHeader",
->>>>>>> origin/dev-4.0
 				);
 				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
 				LIBRARY_SEARCH_PATHS = (
