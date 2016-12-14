@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
+		21C936C11DC08CEB00BCC569 /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C936C01DC08CEB00BCC569 /* AppCanKit.framework */; };
+>>>>>>> origin/dev-4.0
 		21E35A6C1DC07E2C00B7F5AF /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */; };
 		3C864DF41BE1AC51000B24F7 /* EUExUmeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */; };
 /* End PBXBuildFile section */
@@ -24,22 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+=======
+		21C936C01DC08CEB00BCC569 /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
+>>>>>>> origin/dev-4.0
 		21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
 		3C65FF511BE2092600102255 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3C864DEE1BE1AC51000B24F7 /* libuexUmeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexUmeng.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C864DF11BE1AC51000B24F7 /* EUExUmeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExUmeng.h; sourceTree = "<group>"; };
 		3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExUmeng.m; sourceTree = "<group>"; };
-		3C864E021BE1BF21000B24F7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		3C864E031BE1BF21000B24F7 /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
-		3C864E041BE1BF21000B24F7 /* MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
-		3C864E051BE1BF21000B24F7 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
-		3C864E061BE1BF21000B24F7 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
-		3C864E071BE1BF21000B24F7 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
-		3C864E081BE1BF21000B24F7 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		3C864E091BE1BF21000B24F7 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		3C864E0A1BE1BF21000B24F7 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		3C864E0C1BE1BF2E000B24F7 /* EUExBase+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EUExBase+Bundle.h"; sourceTree = "<group>"; };
-		3C864E0D1BE1BF2E000B24F7 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		3C864E0E1BE1BF2E000B24F7 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		3C864E0F1BE1BF2E000B24F7 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		3C864E101BE1BF2E000B24F7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
@@ -51,6 +49,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				21C936C11DC08CEB00BCC569 /* AppCanKit.framework in Frameworks */,
+>>>>>>> origin/dev-4.0
 				21E35A6C1DC07E2C00B7F5AF /* UMMobClick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,34 +82,17 @@
 				21E35A6B1DC07E2C00B7F5AF /* UMMobClick.framework */,
 				3C65FF511BE2092600102255 /* PrefixHeader.pch */,
 				3C864E0B1BE1BF2E000B24F7 /* engineHeader */,
-				3C864E011BE1BF21000B24F7 /* JSON */,
 				3C864DF11BE1AC51000B24F7 /* EUExUmeng.h */,
 				3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */,
 			);
 			path = EUExUmeng;
 			sourceTree = "<group>";
 		};
-		3C864E011BE1BF21000B24F7 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				3C864E021BE1BF21000B24F7 /* JSON.h */,
-				3C864E031BE1BF21000B24F7 /* JSONParser.h */,
-				3C864E041BE1BF21000B24F7 /* MD5Digest.h */,
-				3C864E051BE1BF21000B24F7 /* NSObject+SBJSON.h */,
-				3C864E061BE1BF21000B24F7 /* NSString+SBJSON.h */,
-				3C864E071BE1BF21000B24F7 /* SBJSON.h */,
-				3C864E081BE1BF21000B24F7 /* SBJsonBase.h */,
-				3C864E091BE1BF21000B24F7 /* SBJsonParser.h */,
-				3C864E0A1BE1BF21000B24F7 /* SBJsonWriter.h */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
 		3C864E0B1BE1BF2E000B24F7 /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
+				21C936C01DC08CEB00BCC569 /* AppCanKit.framework */,
 				3C864E0C1BE1BF2E000B24F7 /* EUExBase+Bundle.h */,
-				3C864E0D1BE1BF2E000B24F7 /* EUExBase.h */,
 				3C864E0E1BE1BF2E000B24F7 /* EUExBaseDefine.h */,
 				3C864E0F1BE1BF2E000B24F7 /* EUtility.h */,
 				3C864E101BE1BF2E000B24F7 /* JSON.h */,
@@ -265,6 +250,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EUExUmeng",
+<<<<<<< HEAD
+=======
+					"$(PROJECT_DIR)/EUExUmeng/engineHeader",
+>>>>>>> origin/dev-4.0
 				);
 				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
 				LIBRARY_SEARCH_PATHS = (
@@ -285,6 +274,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EUExUmeng",
+<<<<<<< HEAD
+=======
+					"$(PROJECT_DIR)/EUExUmeng/engineHeader",
+>>>>>>> origin/dev-4.0
 				);
 				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
 				LIBRARY_SEARCH_PATHS = (
