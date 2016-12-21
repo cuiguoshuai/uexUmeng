@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
-    <plugin uexName="uexUmeng" version="4.0.0" build="1">
+    <plugin uexName="uexUmeng" version="4.0.1" build="1">
         <info>1:SDK升级到4.1.9, 支持ATS</info>
         <build>0:uexUmeng插件4.0</build>
     </plugin>
