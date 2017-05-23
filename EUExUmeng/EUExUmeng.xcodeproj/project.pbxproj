@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C13F0401E0A503800104D84 /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C13F03F1E0A503800104D84 /* AppCanKit.framework */; };
-		3C13F0421E0A512400104D84 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C13F0411E0A512400104D84 /* UMMobClick.framework */; };
 		3C864DF41BE1AC51000B24F7 /* EUExUmeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */; };
+		42692CC31ED3C2EC00ADF990 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42692CC21ED3C2EC00ADF990 /* UMMobClick.framework */; };
+		42692CC51ED3C35A00ADF990 /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42692CC41ED3C35A00ADF990 /* AppCanKit.framework */; };
+		42692CC61ED3C40500ADF990 /* UMMobClick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42692CC21ED3C2EC00ADF990 /* UMMobClick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,23 +20,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				42692CC61ED3C40500ADF990 /* UMMobClick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3C13F03F1E0A503800104D84 /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
-		3C13F0411E0A512400104D84 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
-		3C65FF511BE2092600102255 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3C864DEE1BE1AC51000B24F7 /* libuexUmeng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexUmeng.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C864DF11BE1AC51000B24F7 /* EUExUmeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExUmeng.h; sourceTree = "<group>"; };
 		3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExUmeng.m; sourceTree = "<group>"; };
-		3C864E0C1BE1BF2E000B24F7 /* EUExBase+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EUExBase+Bundle.h"; sourceTree = "<group>"; };
-		3C864E0E1BE1BF2E000B24F7 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
-		3C864E0F1BE1BF2E000B24F7 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
-		3C864E101BE1BF2E000B24F7 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		3C864E111BE1BF2E000B24F7 /* WidgetOneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetOneDelegate.h; sourceTree = "<group>"; };
+		42692CC21ED3C2EC00ADF990 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
+		42692CC41ED3C35A00ADF990 /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,8 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C13F0421E0A512400104D84 /* UMMobClick.framework in Frameworks */,
-				3C13F0401E0A503800104D84 /* AppCanKit.framework in Frameworks */,
+				42692CC51ED3C35A00ADF990 /* AppCanKit.framework in Frameworks */,
+				42692CC31ED3C2EC00ADF990 /* UMMobClick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,26 +66,12 @@
 		3C864DF01BE1AC51000B24F7 /* EUExUmeng */ = {
 			isa = PBXGroup;
 			children = (
-				3C13F0411E0A512400104D84 /* UMMobClick.framework */,
-				3C65FF511BE2092600102255 /* PrefixHeader.pch */,
-				3C864E0B1BE1BF2E000B24F7 /* engineHeader */,
+				42692CC41ED3C35A00ADF990 /* AppCanKit.framework */,
+				42692CC21ED3C2EC00ADF990 /* UMMobClick.framework */,
 				3C864DF11BE1AC51000B24F7 /* EUExUmeng.h */,
 				3C864DF31BE1AC51000B24F7 /* EUExUmeng.m */,
 			);
 			path = EUExUmeng;
-			sourceTree = "<group>";
-		};
-		3C864E0B1BE1BF2E000B24F7 /* engineHeader */ = {
-			isa = PBXGroup;
-			children = (
-				3C13F03F1E0A503800104D84 /* AppCanKit.framework */,
-				3C864E0C1BE1BF2E000B24F7 /* EUExBase+Bundle.h */,
-				3C864E0E1BE1BF2E000B24F7 /* EUExBaseDefine.h */,
-				3C864E0F1BE1BF2E000B24F7 /* EUtility.h */,
-				3C864E101BE1BF2E000B24F7 /* JSON.h */,
-				3C864E111BE1BF2E000B24F7 /* WidgetOneDelegate.h */,
-			);
-			path = engineHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +225,7 @@
 					"$(PROJECT_DIR)/EUExUmeng",
 					"$(PROJECT_DIR)/EUExUmeng/engineHeader",
 				);
-				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -264,7 +246,7 @@
 					"$(PROJECT_DIR)/EUExUmeng",
 					"$(PROJECT_DIR)/EUExUmeng/engineHeader",
 				);
-				GCC_PREFIX_HEADER = EUExUmeng/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

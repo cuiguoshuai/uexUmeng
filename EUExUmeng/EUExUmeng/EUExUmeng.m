@@ -23,7 +23,7 @@
     return YES;
 }
 
--(void)onEvent:(NSMutableArray*)inArguments{
+- (void)onEvent:(NSMutableArray*)inArguments{
     if(inArguments.count < 1){
         return;
     }
@@ -38,7 +38,7 @@
     }
 }
 
--(NSDictionary*)getDeviceInfo:(NSMutableArray*)inArguments{
+- (NSDictionary*)getDeviceInfo:(NSMutableArray*)inArguments{
     Class cls = NSClassFromString(@"UMANUtil");
     SEL deviceIDSelector = @selector(openUDIDString);
     NSString *deviceID = nil;
