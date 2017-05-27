@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <uexplugins>
     <plugin uexName="uexUmeng" version="4.0.2" build="2">
-        <info>1:SDK升级到4.2.5</info>
+        <info>2:SDK升级到4.2.5</info>
         <build>1:SDK升级到4.1.9, 支持ATS</build>
         <build>0:uexUmeng插件4.0</build>
     </plugin>
